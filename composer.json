@@ -1,5 +1,5 @@
 {
-    "name": "maneash-demo/helloworld",
+    "name": "maneash-demo/helloworld-module",
     "description": "this is my first project as module for my cms",
     "type": "library",
     "license": "MIT",
