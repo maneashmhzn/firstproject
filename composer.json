@@ -1,5 +1,5 @@
 {
-     "name": "maneash-demo/helloworld-module",
+     "name": "maneash-demo/helloworld",
      "description": "this is my first project as module for my cms",
      "type": "laravel-module",
      "license": "MIT",
