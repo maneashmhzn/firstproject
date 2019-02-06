@@ -4,5 +4,8 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "beta",
-    "require": {}
+    "require": {},
+    "extra": {
+    "module-dir": "Custom"
+}
 }
