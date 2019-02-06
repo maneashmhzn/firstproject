@@ -1,6 +1,11 @@
 {
-    "name": "nwidart/slider",
-    "description": "",
+     "name": "maneash-demo/helloworld-module",
+     "description": "this is my first project as module for my cms",
+     "type": "laravel-module",
+     "license": "MIT",
+     "version": "dev-master",
+     "minimum-stability": "beta",
+     "require": {},
     "authors": [
         {
             "name": "Nicolas Widart",
