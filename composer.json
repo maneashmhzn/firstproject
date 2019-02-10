@@ -3,7 +3,7 @@
      "description": "this is my first project as module for my cms",
      "type": "laravel-module",
      "license": "MIT",
-     "minimum-stability": "beta",
+     "minimum-stability": "dev",
      "require": {},
     "authors": [
         {
