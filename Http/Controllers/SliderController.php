@@ -5,6 +5,7 @@ namespace Modules\Slider\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use Modules\Slider\Entities\Slider;
 
 class SliderController extends Controller
 {
@@ -14,7 +15,8 @@ class SliderController extends Controller
      */
     public function index()
     {
-        return view('slider::index');
+      return Slider::all();
+        // return view('slider::index');
     }
 
     /**
@@ -33,6 +35,8 @@ class SliderController extends Controller
      */
     public function store(Request $request)
     {
+      $data = $request->only('title','description','image');
+      return Slider::create($data);
     }
 
     /**

@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::post('/admin/slider','SliderController@store');
+Route::post('/admin/sliders','SliderController@index');
+
 Route::middleware('auth:api')->get('/slider', function (Request $request) {
     return $request->user();
 });
