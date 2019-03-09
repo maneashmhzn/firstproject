@@ -4,9 +4,7 @@
      "type": "laravel-module",
      "license": "MIT",
      "minimum-stability": "dev",
-     "require": {
-          
-     },
+     "require": {},
     "authors": [
         {
             "name": "Nicolas Widart",
